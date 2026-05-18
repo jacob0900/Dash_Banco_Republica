@@ -3,7 +3,7 @@ from tabs.svg_icons import svg_icon
 from dash import html
 import dash_bootstrap_components as dbc
 
-GITHUB_URL     = "https://github.com/tu-usuario/tu-repositorio"
+GITHUB_URL     = "https://github.com/jacob0900/Dash_Banco_Republica"
 LINKEDIN_URL_1 = "https://www.linkedin.com/in/jacobo-londo%C3%B1o-baquero-a2b86733a/"
 LINKEDIN_URL_2 = "https://www.linkedin.com/in/jesus-david-barrios-97181b337/"
 
