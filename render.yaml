@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Dash_Banco_Republica
+    env: python
+    buildCommand: pip install --upgrade pip wheel setuptools && pip install -r requirements.txt
+    startCommand: gunicorn dash_v3_modified.app:server
