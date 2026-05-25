@@ -2,7 +2,7 @@ services:
   - type: web
     name: Dash_Banco_Republica
     env: python
-    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    buildCommand: pip install --upgrade pip && pip install --only-binary=:all: -r requirements.txt
     startCommand: gunicorn app:server --workers 1 --timeout 120
     envVars:
       - key: PYTHON_VERSION
