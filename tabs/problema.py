@@ -3,8 +3,6 @@ tabs/problema.py
 Pestaña 3 – Descripción del problema / comportamiento de la serie temporal.
 """
 
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from tabs.svg_icons import svg_icon
 from dash import html, dcc

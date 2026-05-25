@@ -10,8 +10,6 @@ Refleja las celdas 88-90 del notebook EdaVis.ipynb con interpretaciones detallad
   - Conclusión e implicaciones para el modelo
 """
 
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from tabs.svg_icons import svg_icon
 from dash import html, dcc

@@ -3,8 +3,6 @@ tabs/prediccion.py
 Pestaña 8 – Prueba de estacionariedad (ADF y KPSS).
 """
 
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from tabs.svg_icons import svg_icon
 from dash import html, dcc

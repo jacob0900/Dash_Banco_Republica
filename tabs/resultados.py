@@ -9,8 +9,6 @@ Sección de correlaciones:
   aquí mostramos correctamente sobre los niveles originales.
 """
 
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from tabs.svg_icons import svg_icon
 from dash import html, dcc, dash_table

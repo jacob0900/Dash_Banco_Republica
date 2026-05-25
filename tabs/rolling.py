@@ -8,8 +8,6 @@ Basada en las celdas del notebook EdaVis.ipynb (sección "Tecnica Rolling"):
   - Conclusión sobre la viabilidad del rolling
 """
 
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from tabs.svg_icons import svg_icon
 from dash import html, dcc, dash_table

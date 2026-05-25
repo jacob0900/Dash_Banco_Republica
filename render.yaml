@@ -3,7 +3,7 @@ services:
     name: Dash_Banco_Republica
     env: python
     buildCommand: pip install --upgrade pip wheel setuptools && pip install -r requirements.txt
-    startCommand: gunicorn dash_v3_modified.app:server
+    startCommand: gunicorn app:server
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10.13
+        value: 3.12.0
