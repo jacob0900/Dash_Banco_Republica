@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: Dash_Banco_Republica
+    env: python
+    pythonVersion: "3.9.19"
+    buildCommand: pip install --upgrade pip && pip install --only-binary=:all: -r requirements.txt
+    startCommand: gunicorn app:server --workers 1 --timeout 120
